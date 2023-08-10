@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Boostrap CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>EH Interview by Sabbir Ahmad Moudud</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+    <div class="contaidner">
+        <div class="sidebar active">
+            <div class="sidebar-header">
+                <div class="bar-icon" id="toggle-sidebar">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <ul class="sidebar-links text-center">
+                <h3>User Profile</h3>
+                <li><a href="#"><i class="fas fa-user"></i> <span></span> User Info</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i> <span></span> Favourite</a></li>
+                <li><a href="#"><i class="fas fa-star"></i> <span></span> Watchlist</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> <span></span> Setting</a></li>
+                <li><a href="#"> <i class="fas fa-bell"></i> <span></span> Notifications</a></li>
+                <p class="logout"><i class="fas fa-sign-out-alt"></i>Logout</p>
+            </ul>
+        </div>
+        <hr class="top-line">
+        <div class="content mt-5">
+            <div class="profile-top d-flex align-items-center">
+                <a href="#"><i class="fas fa-bell"></i></a>
+                <picture>
+                    <img src="./images/photo.jpg" alt="photo">
+                </picture>
+                <p>Moudud Ahmad</p>
+                <a href="#"><i class="fas fa-chevron-down"></i></a>
+            </div>
+            <div class="profile d-flex">
+                <picture>
+                    <img src="./images/photo.jpg" alt="photo">
+                </picture>
+                <div class="profile-inner">
+                    <h4>Sabbir Ahmad Moudud</h4>
+                    <p>Dhaka, Bangladesh</p>
+                </div>
+            </div>
+            <div class="profile-info d-flex ">
+                <div class="profile-info--inner">
+                    <label>Name</label>
+                    <input placeholder="Sabbir" type="text">
+                    <label>Email Address</label>
+                    <input placeholder="sabbirahmedmoudud@gmail.com" type="email">
+                    <label>Location</label>
+                    <input placeholder="Dhaka, Bangladesh" type="text">
+                </div>
+                <div class="profile-info--inner">
+                    <label>Last Name</label>
+                    <input placeholder="Ahmad Moudud" type="text">
+                    <label>Phone Number</label>
+                    <input placeholder="+880 1619863686" type="number">
+                    <label>Postal Code</label>
+                    <input placeholder="231645" type="number">
+                </div>
+            </div>
+        </div>
+        <div class="save-btn">
+            <a href="#">Save Changes</a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <!-- Bootstrap CDN JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
